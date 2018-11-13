@@ -585,8 +585,8 @@ margin-top: 180px;
 .event2_section{
 	margin-top: 56px;
 }
-.event2_sections{
-	margin-top: 15px;
+.event2_sections, .event1_sections{
+	margin-top: 20px;
 }
 .event1_sections p, .event2_sections p{
 	padding: 0px;
