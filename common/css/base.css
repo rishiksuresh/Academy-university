@@ -736,9 +736,10 @@ div .text_box {
 	background-color: white;
 }  
 .admission_section input{
-	width: 100%;
+	width: 98%;
 	height: 94%;
 	border: none;
+	padding-left:10px;
 }
 
 #admission h1{
