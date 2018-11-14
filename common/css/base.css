@@ -817,7 +817,7 @@ div .text_box {
 
 
 .heading{
-	text-align: center;
+/* 	text-align: center; */
 }
 
 .container {
@@ -1342,7 +1342,7 @@ header button{
 	box-sizing: border-box;
 	padding-left: 130px;
 	background-repeat: no-repeat;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 }
 .adm_heading{
