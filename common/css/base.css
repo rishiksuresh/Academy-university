@@ -18,9 +18,9 @@ button:hover{
 	border-color: #ba2025;
 }
 .container {
-	margin:auto;
-	/*width: 1280px;*/
-	width: 100%;
+	margin:0 auto;
+	width: 1366px;
+	/*width: 100%;*/
 	overflow: hidden;
 	
 }
