@@ -1,3 +1,7 @@
+body p{
+	font-family: Source Sans Pro;
+	font-style: normal;
+}
 body {
 	/*font-family: Open Sans;*/
 	/*line-height: 1.2;*/
@@ -500,7 +504,10 @@ margin-top: 180px;
 .news_content p{
 	text-align: justify;
 	margin-top: 10px;
-	margin-right: 4px;
+	margin-right: 8px;
+}
+.news_content span{
+	margin-right: 2px;
 }
 .icone{
 
@@ -747,7 +754,6 @@ div .text_box {
 	color: white;
 }
 .button_div_adm {
-	margin-left: 506px;
 	margin-left: 513px;
 	margin-top: 40px;
 
