@@ -32,7 +32,7 @@ div .img{
 	padding: 0px;
 	margin: 0px;
 }
-body h1,h2{
+body h1,h2,h3,h4,h5{
 	margin: 0px;
 	padding: 0px;
 	margin-top: 20px;
@@ -40,17 +40,18 @@ body h1,h2{
 	font-weight: bold;
 }
 body p{
-	font-family: SourceSansPro/*, Roboto*/;
+	font-family: Source Sans Pro/*, Roboto*/;
 	line-height: 1.2;
 	font-weight: normal;
+	font-size: 18px;
 	padding: 0;
 	margin: 0;
 
 }
 body h1{
 	font-size: 30px;
-	font-weight: bold;
-	/*font-family: 'Roboto' ;*/
+	/*font-family: Roboto;*/
+	/*font-weight: bold;*/
 }
 
 /*header li {
@@ -176,17 +177,19 @@ margin-top: 180px;
 
 }.main_content h4,h1,h3{
 	padding: 0px;
-	margin: 0 0 0 0px;
+	/*margin: 0 0 0 0px;*/
 }
 .main_content h1{
 	font-size: 48px;
+	margin-top: 0px;
 }
 .main_content h4{
 	font-size: 15px;
 }
 .main_content h3{
-	font-size: 12px;
+	font-size: 14px;
 	margin-bottom: 40px;
+	font-style: normal;
 }
 #main_content button{
 	background-color: transparent;
@@ -484,6 +487,11 @@ margin-top: 180px;
 	margin-top: 10px;
 	margin-right: 8px;
 }
+.red_box h3{
+	/*text-align: justify;*/
+	margin-top: 0px;
+	/*margin-right: 8px;*/
+}
 .news_content span{
 	margin-right: 2px;
 }
@@ -557,6 +565,9 @@ margin-top: 180px;
 	font-size: 20px;
 	font-weight: bold;
 
+}
+.event_cal span{
+	margin-right: 5px;
 }
 .event1_section{
 	margin-right: 30px;
@@ -636,6 +647,7 @@ margin-top: 180px;
 	font-weight: bold;
 	color: #ba2025;
 	margin-right: 60px;
+	margin-top: 5px;
 
 }
 .abt_logo_img2{
@@ -716,7 +728,7 @@ div .text_box {
 .text_box{
 	padding: 0px;
 	margin: 0px;
-	width: 520px;
+	width: 563px;
 
 	height: 50px;
 	background-color: white;
@@ -732,7 +744,7 @@ div .text_box {
 	color: white;
 }
 .button_div_adm {
-	margin-left: 513px;
+	margin-left: 515px;
 	margin-top: 40px;
 
 
@@ -2149,7 +2161,7 @@ margin-top: 180px;
 	box-sizing: border-box;
 	padding-left: 20px;
 	background-repeat: no-repeat;
-	padding-top: 40px;
+	/*padding-top: 40px;*/
 	padding-bottom: 40px;
 }
 .adm_heading{
@@ -2175,7 +2187,7 @@ div .text_box {
 	background-color: white;
 }
 .admission_section input{
-	width: 100%;
+	width: 96%;
 	height: 97%;
 	border: none;
 }
