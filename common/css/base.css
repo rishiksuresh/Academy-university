@@ -20,7 +20,8 @@ button:hover{
 }
 .container {
 	margin:0 auto;
-	width: 1366px;
+	/*width: 1366px;*/
+	width: 1349px;
 	/*width: 100%;*/
 	overflow: hidden;
 	
