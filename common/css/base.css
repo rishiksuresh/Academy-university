@@ -146,49 +146,133 @@ li.home a,ul.list_header_nav a:hover{
 /* End of Navigation css code */
 
 
-/* slide css*/
-#main_content .container{
+
+
+
+/* slide show css *************************************************************************************/
+
+.slider{
 	padding: 0px;
+	/*width: 500px;*/
+	width: 100%;
+	/*margin: 20px auto 0;*/
+	/*background: orange;*/
+	/*padding: 10px;*/
+	position: relative;
+}
+#imges img{
 	/*width: 100%;*/
+	display: none;
+	/*display: flex;*/
+}
+#imges img.active{
+	display: block;
+}
+
+.slider_container{
+	color: white;
+	position: absolute;
+	top: 230px;
+	transform: translateX(70px);
+
+}
+
+.buttons #prev, .buttons #next{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.buttons #prev{
+	left:20px;
+}
+.buttons #next{
+	right: 20px;
+}
+.circles span{
+	width: 10px;
+	height: 10px;
+	border: 2px solid white;
+	display: inline-block;
+	border-radius: 50%;
+}
+.circles span.highlight{
+	background: white;
+}
+.circles{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+}
+
+#slide1_img{
+	padding: 0px;
 	background-image: url('../img/slide_laptop.jpg');
     color: white;
     height: 590px;
     display: flex;
     background-repeat: no-repeat;
-    /*margin: auto;*/
-
 }
+#slide2_img{
+	padding: 0px;
+	background-image: url('../img/slide2_laptop.jpg');
+    color: white;
+    height: 590px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+#slide3_img{
+	padding: 0px;
+	background-image: url('../img/slide3_laptop.jpg');
+    color: white;
+    height: 590px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+
+
+
+div{
+	padding: 0px;
+	margin: 0px;
+}
+
 #main_content {
 	width: 100%;
 }
-.main_content{
+/*.slider_container{
 	display: flex;
 	flex-direction: column;
-}
+}*/
 .ac{
 	display: flex;
 	
 }
-.main_content span{
+.slider_container span{
 	text-decoration: underline;
 	text-decoration-color: green;
 }
-.main_content {
+/*.slider_container {
 margin-left: 60px;
 margin-top: 180px;
 
-}.main_content h4,h1,h3{
+}*/
+.slider_container h4,h1,h3{
 	padding: 0px;
 	/*margin: 0 0 0 0px;*/
 }
-.main_content h1{
+.slider_container h1{
 	font-size: 48px;
 	margin-top: 0px;
 }
-.main_content h4{
+.slider_container h4{
 	font-size: 15px;
 }
-.main_content h3{
+.slider_container h3{
+	margin: 0px;
 	font-size: 14px;
 	margin-bottom: 40px;
 	font-style: normal;
@@ -207,6 +291,72 @@ margin-top: 180px;
 	color: white;
 	border-color: green;
 }
+
+
+
+/* End slide show css*************************************************************************************/
+
+/* slide css*/
+#main_content .container{
+	padding: 0px;
+	/*width: 100%;*/
+	/*background-image: url('../img/slide_laptop.jpg');*/
+    color: white;
+    height: 590px;
+    /*display: flex;*/
+    background-repeat: no-repeat;
+    /*margin: auto;*/
+
+}
+#main_content {
+	width: 100%;
+}
+.main_content{
+	display: flex;
+	flex-direction: column;
+}/*
+.ac{
+	display: flex;
+	
+}*/
+/*.main_content span{
+	text-decoration: underline;
+	text-decoration-color: green;
+}*/
+/*.main_content {
+margin-left: 60px;
+margin-top: 180px;
+
+}*/
+/*.main_content h4,h1,h3{
+	padding: 0px;
+}
+.main_content h1{
+	font-size: 48px;
+	margin-top: 0px;
+}
+.main_content h4{
+	font-size: 15px;
+}
+.main_content h3{
+	font-size: 14px;
+	margin-bottom: 40px;
+	font-style: normal;
+}*/
+/*#main_content button{
+	background-color: transparent;
+	color: white;
+	font-size: 16px;
+	width: 173px;
+	height: 44px;
+	border-color: white;
+
+}
+#main_content button:hover{
+	background-color: green;
+	color: white;
+	border-color: green;
+}*/
 /* End slide css code */
 
 /* programmes css code*/
