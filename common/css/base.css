@@ -975,7 +975,9 @@ div .text_box {
 
 
 .nav_header_div {
-    height: 100%;
+    /*height: 100%;*/
+    height: 434px;
+
     width: 0;
     position: fixed;
     z-index: 1;
@@ -1005,7 +1007,8 @@ div .text_box {
 .nav_header_div .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    /*right: 25px;*/
+    right: 0px;
     font-size: 36px;
     margin-left: 50px;
 }
