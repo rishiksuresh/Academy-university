@@ -3,60 +3,60 @@
 // slider jquery
 
 
-$('.prev').click(updateSlider);
-    $('.next').click(updateSlider);
+// $('.prev').click(updateSlider);
+//     $('.next').click(updateSlider);
     
-    var totalImg = $('img_slider').length;
+//     var totalImg = $('img_slider').length;
 
-    function updateSlider(){
-      var activeImg = $('.active')[0];
-      var btnId = $(this).Id;
+//     function updateSlider(){
+//       var activeImg = $('.active')[0];
+//       var btnId = $(this).Id;
 
-      console.log(this.id)
-      if (tempImg == "prev") {
-        var tempImg = activeImg.previousSibling.previousSibling;
+//       console.log(this.id)
+//       if (tempImg == "prev") {
+//         var tempImg = activeImg.previousSibling.previousSibling;
 
-        if (tempImg == null) {
-          tempImg = $('.img_slider')[totalImg-1];
-        }
+//         if (tempImg == null) {
+//           tempImg = $('.img_slider')[totalImg-1];
+//         }
       
-      }else{
-        var tempImg = activeImg.nextSibling.nextSibling;
+//       }else{
+//         var tempImg = activeImg.nextSibling.nextSibling;
 
         
 
-        if (tempImg == null) {
-          tempImg = $('.img_slider')[0];
-        }
+//         if (tempImg == null) {
+//           tempImg = $('.img_slider')[0];
+//         }
         
-      }
-        activeImg.classList.remove('active');
-        tempImg.classList.add('active');
-        updateCircle(btnId);
-    }
-    function updateCircle(btnId){
-      var activeCircle = $('.highlight')[0];
-      console.log(this.id)
-      if (btnId == "prev") {
-        var tempCircle = activeCircle.previousSibling.previousSibling;
+//       }
+//         activeImg.classList.remove('active');
+//         tempImg.classList.add('active');
+//         updateCircle(btnId);
+//     }
+//     function updateCircle(btnId){
+//       var activeCircle = $('.highlight')[0];
+//       console.log(this.id)
+//       if (btnId == "prev") {
+//         var tempCircle = activeCircle.previousSibling.previousSibling;
 
-        if (tempCircle == null) {
-          tempCircle = $('.slider_span')[totalImg-1];
-        }
+//         if (tempCircle == null) {
+//           tempCircle = $('.slider_span')[totalImg-1];
+//         }
         
-      }else{
-        var tempCircle = activeCircle.nextSibling.nextSibling;
+//       }else{
+//         var tempCircle = activeCircle.nextSibling.nextSibling;
 
        
 
-        if (tempCircle == null) {
-          tempCircle = $('.slider_span')[0];
-        }
-        // logic for next button
-      }
-        activeCircle.classList.remove('highlight');
-        tempCircle.classList.add('highlight');
-    }
+//         if (tempCircle == null) {
+//           tempCircle = $('.slider_span')[0];
+//         }
+//         // logic for next button
+//       }
+//         activeCircle.classList.remove('highlight');
+//         tempCircle.classList.add('highlight');
+//     }
 
 
 

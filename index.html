@@ -25,10 +25,12 @@
 	<div class="container_logo">
 		 <img src="common/img/logo_laptop.png" alt="Academy University">
 	</div>
-	<div class="nav_header_div">
+	<div id="mySidenav" class="nav_header_div">
 	<nav class="nav_header">
 	<ul class="list_header_nav">
+		<li><li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li></li>
 		<li class="home"><a href="index.html">Home</a></li>
+		<!-- <li class="home"><a href="#home">Home</a></li> -->
 		<li><a href="#programmes">Programmes</a></li>
 		<li><a href="#research">Research</a></li>
 		<li><a href="#admission">Admission</a></li>
@@ -40,7 +42,7 @@
 	</nav>
 	</div>
 		<div class="menu">
-				<span><i class="fas fa-bars"></i></span>
+				<span><i class="fas fa-bars" onclick="openNav()"></i></span>
 			</div>
 	</div>
 </header>
@@ -465,6 +467,6 @@
 
 
 	<script type="text/javascript" src="common/jquery.js"></script>
-	<!-- <script type="text/javascript" src="common/slide.java"></script> -->
+	<script type="text/javascript" src="common/slide.java"></script>
 </body>
 </html>

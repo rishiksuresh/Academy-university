@@ -57,3 +57,17 @@ var btnPrev = document.getElementById('prev');
 				activeCircle.classList.remove('highlight');
 				tempCircle.classList.add('highlight');
 		}
+
+
+
+// sidebar
+
+
+
+function openNav() {
+	  document.getElementById("mySidenav").style.width = "210px";
+	}
+
+		function closeNav() {
+	   	 document.getElementById("mySidenav").style.width = "0";
+	}

@@ -183,6 +183,7 @@ li.home a,ul.list_header_nav a:hover{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	display: none;
 }
 .buttons #prev{
 	left:20px;
@@ -967,6 +968,71 @@ div .text_box {
 @media(max-width: 768px){
 
 
+
+
+
+	.nav_header_div {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.nav_header_div a {
+    padding: 8px 20px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    /*color: #818181;*/
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav_header_div a:hover {
+    /*color: #f1f1f1;*/
+    color: white;
+}
+
+.nav_header_div .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+ul.list_header_nav a{
+	text-decoration: none;
+	color: white;
+	font-family: Roboto;
+	font-weight: bold;
+
+}
+li.home a,ul.list_header_nav a:hover{
+	/*color:#ba2025;*/
+	text-decoration: underline;
+	text-decoration-color: #ba2025;
+	
+}
+
+
+
+
+
+
+
+body p{
+	letter-spacing: 0.7px;
+}
 .heading{
 /* 	text-align: center; */
 }
@@ -996,9 +1062,9 @@ header .container{
 	margin-top: 10px;
 
 }
-#main_container nav{
+/*#main_container nav{
 	display: none;
-}
+}*/
 /*.nav_header_div{
 	display: none;
 }*/
@@ -1163,8 +1229,8 @@ header button{
 	width:2px;
 	height: 36px;
 	background-color: #ba2025;
-	margin-left: 10px; 
-	margin-right: 10px;
+	margin-left: 6px; 
+	margin-right: 6px;
 	margin-top: 20px;
 }
 /* End Research css code*/
@@ -1922,8 +1988,8 @@ margin-top: 180px;
 	width:2px;
 	height: 36px;
 	background-color: #ba2025;
-	margin-left: 10px; 
-	margin-right: 10px;
+	margin-left: 6px; 
+	margin-right: 6px;
 	margin-top: 20px;
 }
 /* End Research css code*/
