@@ -140,6 +140,9 @@ li.home a,ul.list_header_nav a:hover{
 	margin-left: 426px;
 	/*float: right;*/
 }
+.closebtn{
+	display: none;
+}
 /*#main-container .container {
 	position: relative;
 }*/
@@ -971,7 +974,7 @@ div .text_box {
 
 
 
-	.nav_header_div {
+.nav_header_div {
     height: 100%;
     width: 0;
     position: fixed;
