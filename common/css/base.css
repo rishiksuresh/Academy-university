@@ -300,6 +300,7 @@ li.home a,ul.list_header_nav a:hover{
 	border: 2px solid white;
 	display: inline-block;
 	border-radius: 50%;
+	display: none;
 }
 .circles span.highlight{
 	background: white;
@@ -1830,8 +1831,8 @@ div .text_box {
 
 .container {
 	margin:auto;
-	width: 100%;
 	/*width: 100%;*/
+	width: 320px;
 	overflow: hidden;
 	
 }
@@ -1861,15 +1862,108 @@ div .text_box {
 	}
 
 /* slide css*/
-#main_content .container{
+
+
+
+
+.slider{
 	padding: 0px;
-	background: url('../img/slide_laptop.jpg');
+	/*width: 500px;*/
+	/*width: 100%;*/
+	width: 320px;
+	/*margin: 20px auto 0;*/
+	/*background: orange;*/
+	/*padding: 10px;*/
+	position: relative;
+}
+#imges img{
+	/*width: 100%;*/
+	display: none;
+	/*display: flex;*/
+}
+#imges img.active{
+	display: block;
+}
+
+.slider_container{
+	color: white;
+	position: absolute;
+	top: 230px;
+	transform: translateX(0px);
+
+}
+
+.buttons #prev, .buttons #next{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	display: none;
+}
+.buttons #prev{
+	left:20px;
+}
+.buttons #next{
+	right: 20px;
+}
+.circles span{
+	width: 10px;
+	height: 10px;
+	border: 2px solid white;
+	display: inline-block;
+	border-radius: 50%;
+	display: none;
+}
+.circles span.highlight{
+	background: white;
+}
+.circles{
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+}
+
+#slide1_img{
+	padding: 0px;
+	background-image: url('../img/slide_laptop.jpg');
     color: white;
     height: 590px;
     display: flex;
     background-repeat: no-repeat;
+}
+#slide2_img{
+	padding: 0px;
+	background-image: url('../img/slide2_laptop.jpg');
+    color: white;
+    height: 590px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+#slide3_img{
+	padding: 0px;
+	background-image: url('../img/slide3_laptop.jpg');
+    color: white;
+    height: 590px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+#main_content .container{
+	padding: 0px;
+	/*width: 100%;*/
+	/*background-image: url('../img/slide_laptop.jpg');*/
+    color: white;
+    height: 590px;
+    /*display: flex;*/
+    background-repeat: no-repeat;
     /*margin: auto;*/
-    text-align: center;
 
 }
 #main_content {
@@ -1889,7 +1983,7 @@ div .text_box {
 }
 .main_content {
 margin-left: 0px;
-margin-top: 180px;
+margin-top: 0px;
 
 }.main_content h4,h1,h3{
 	padding: 0px;
@@ -2602,3 +2696,9 @@ div .text_box {
 .container small{
 	margin-top: 20px;
 }
+
+
+
+
+
+
