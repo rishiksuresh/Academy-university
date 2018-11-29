@@ -1,35 +1,36 @@
 
 body{
-	/*font-family: Open Sans;*/
-	/*line-height: 1.2;*/
 	padding: 0;
 	margin: 0;
 }
-button{
+button.apply{
 	width: 118px;
 	height: 32px;
 	background-color: #ba2025;
 	color: white;
 	border-color: transparent;
 	cursor: pointer;
+		margin-top: 21px;
+
 }
-button:hover{
+button.apply:hover{
 	background-color: transparent;
 	color: #ba2025;
 	border-color: #ba2025;
 }
 .container {
 	margin:0 auto;
-	/*width: 1366px;*/
-	width: 1349px;
-	/*width: 100%;*/
+
+	/*width: 1349px;*/
+	width: 100%;
+
 	overflow: hidden;
 	
 }
 div .img{
-	/*width: 100%;*/
+
 }
-.container p{
+/*.container p{
 	padding: 0px;
 	margin: 0px;
 }
@@ -52,23 +53,15 @@ body p{
 }
 body h1{
 	font-size: 30px;
-	/*font-family: Roboto;*/
-	/*font-weight: bold;*/
+
 }
 
-/*header li {
-	display: inline-flex;
-	padding-right: 10px; 
-}*/
 
-/*.main_container{
-	margin:auto;
-}*/
-/* Navigation css code*/
+
+
+
 header .container{
 	padding: 0px;
-
-	/*display: flex;*/
 	background-color:white;
 	color: black;
 	padding-left: 100px;
@@ -78,28 +71,13 @@ header .container{
 
 }
 .container_logo{
-	/*flex: 2;*/
 	float: left;
-	/*margin-left: 80px;*/
 
 	margin-top: 10px;
 
 }
-/*.nav_header_div{
-	margin-top: 5px;
-}*/
-
-/*.list_header_nav{
-	display: flex;
-	float: right;
-}*/
-/*.container nav{
-	display: inline;
-	float: right;
-}*/
 .container ul{
 	float: right;
-	/*margin-top: 20px;*/
 }
 .container li{
 	display: inline;
@@ -124,28 +102,150 @@ li.home a,ul.list_header_nav a:hover{
 
 
 .nav_header_div li{
-	/*padding: 10px;*/
-	/*padding-right: 10px;*/
 	margin-right: 10px;
-	/*margin-top: 30px; */
+
 }
 .button_div{
 
 	margin-top: 25px;
-	/*margin-right: 80px;*/
 }
 #main_container .menu {
 	display: none;
 	margin-top: 26px;
 	margin-left: 426px;
-	/*float: right;*/
+}
+.closebtn{
+	display: none;
+}*/
+
+.container p{
+	padding: 0px;
+	margin: 0px;
+}
+body h1,h2{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 20px;
+	font-family: Roboto;
+	font-weight: bold;
+}
+body p{
+	font-family: Open Sans;
+	line-height: 1.2;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+
+}
+body h1{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Roboto' ;
+}
+
+
+
+
+
+.header_container{
+  margin: auto;
+  width: 85%;
+  overflow: hidden;
+}
+.container_header{
+	display: flex;
+	width: 100%;
+  height: 80px;
+}
+.container_logo{
+	display: flex;
+	flex: 1;
+
+	justify-content: flex-start;
+
+
+}
+.container_logo img{
+	width: 268px;
+	height: 50px;
+	margin-top: 15px;
+}
+.nav_header_div{
+	flex: 3;
+	display: flex;
+	justify-content: flex-end;
+}
+.nav_header{
+	display: flex;
+}
+.list_header_nav{
+	display: flex;
+}
+.list_header_nav a {
+  padding: 0px 10px 0px 0px;
+  text-decoration: none;
+  color: white;
+}
+
+ul.list_header_nav{
+	list-style: none;
+	
+}
+ul.list_header_nav a{
+	text-decoration: none;
+	color: black;
+	font-family: Roboto;
+	font-weight: bold;
+}
+li.home a,ul.list_header_nav a:hover{
+	color:#ba2025;
+	text-decoration: underline;
+	text-decoration-color: #ba2025;
+	
+}
+ul .list_header_nav a{
+	margin-top: 10px;
+}
+
+.button_div{
+
+	margin-top: 25px;
+}
+
+header .container{
+	position: relative;
+}
+
+ul.list_header_nav a{
+	text-decoration: none;
+	color: black;
+	font-family: Roboto;
+	font-weight: bold;
+}
+li.home a,ul.list_header_nav a:hover{
+	color:#ba2025;
+	text-decoration: underline;
+	text-decoration-color: #ba2025;
+	
+}
+
+
+.nav_header_div li{
+	margin-right: 10px;
+	margin-top: 14px; 
+}
+.button_div{
+
+	margin-top: 25px;
+}
+
+#main_container .menu {
+	display: none;
+	float: right;
 }
 .closebtn{
 	display: none;
 }
-/*#main-container .container {
-	position: relative;
-}*/
 /* End of Navigation css code */
 
 
@@ -971,6 +1071,25 @@ div .text_box {
 @media(max-width: 768px){
 
 
+body p{
+	letter-spacing: 0.7px;
+}
+.heading{
+/* 	text-align: center; */
+}
+
+/*.container {
+	margin:auto;
+
+	width: 768px;
+	overflow: hidden;
+	
+}*/
+
+
+
+
+
 
 
 
@@ -1029,27 +1148,17 @@ li.home a,ul.list_header_nav a:hover{
 	text-decoration-color: #ba2025;
 	
 }
-
-
-
-
-
-
-
-body p{
-	letter-spacing: 0.7px;
-}
-.heading{
-/* 	text-align: center; */
+.container_logo img{
+	width: 268px;
+	height: 50px;
+	margin-top: 0px;
 }
 
-.container {
-	margin:auto;
 
-	width: 768px;
-	overflow: hidden;
-	
-}
+
+
+
+
 
 header .container{
 	padding: 0px;
@@ -1086,7 +1195,7 @@ header button{
 		display: block;
 		/*color: white;*/
 		font-size: 30px;
-		/*margin-top: 9px;*/
+		margin-top: 24px;
 	}
 /* programme section */
 #programmes .container{
