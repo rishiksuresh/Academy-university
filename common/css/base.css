@@ -1890,6 +1890,7 @@ div .text_box {
 	position: absolute;
 	top: 230px;
 	transform: translateX(0px);
+	text-align: center;
 
 }
 
@@ -2008,13 +2009,19 @@ margin-top: 0px;
 	width: 173px;
 	height: 44px;
 	border-color: white;
-	margin-left: 75px;
+	margin-left: 10px;
 
 }
 #main_content button:hover{
 	background-color: green;
 	color: white;
 	border-color: green;
+}
+
+
+.slider_container span{
+	text-decoration: underline;
+	text-decoration-color: transparent;
 }
 /* End slide css code */
 /* programme section */
@@ -2679,7 +2686,7 @@ div .text_box {
 	cursor: pointer;
 }
 #contact p{
-	font-size: 18px;
+	font-size: 16px;
 }
 
 /* copy right*/
