@@ -85,7 +85,7 @@ $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
 
-         document.getElementById("mySidenav").style.width = "0";
+         // document.getElementById("mySidenav").style.width = "0";
 
       var target = $(this.hash);
 
