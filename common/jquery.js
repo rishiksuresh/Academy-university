@@ -81,6 +81,53 @@
 //       SMOOTH SCROLL FUNCTION        
 // /**************************************/ -->
 // <script type="text/javascript">
+
+// $(function() {
+//   $('a[href*="#"]:not([href="#"])').click(function() {
+//     if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+
+//          // document.getElementById("mySidenav").style.width = "0";
+
+//       var target = $(this.hash);
+
+//       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+//       if (target.length) {
+//         $('html, body').animate({
+//           scrollTop: target.offset().top -0+'px'
+//         }, 1000);
+//         return false;
+//       }
+//     }
+//   });
+// });
+
+
+
+  var a = document.getElementById("mySidenav").style.width;
+
+if (a="210") {
+  
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+
+         document.getElementById("mySidenav").style.width = "0";
+
+      var target = $(this.hash);
+
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top -0+'px'
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+}else{
+  
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
@@ -99,6 +146,8 @@ $(function() {
     }
   });
 });
+}
+
 
 	// </script>}
 
