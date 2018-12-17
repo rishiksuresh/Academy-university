@@ -522,7 +522,7 @@ margin-top: 180px;
 }*/
 #programmes .heading{
 
-	margin-left: 70px;
+	margin-left: 37px;
 	
 }
 
@@ -1323,7 +1323,10 @@ li.home a,ul.list_header_nav a:hover{
 	display: flex;
 	flex-direction: column;
 }
-
+.nav_header{
+	display: flex;
+	flex-direction: column;
+}
 
 
 
@@ -1395,6 +1398,11 @@ li.home a,ul.list_header_nav1 a:hover{
 
 
 
+header button{
+	/*display: none;*/
+	margin-left: 64px;
+
+}
 
 
 header .container{
@@ -1420,9 +1428,7 @@ header .container{
 /*.nav_header_div{
 	display: none;
 }*/
-header button{
-	display: none;
-}
+
 .button_div{
 	width: 35px;
 	height:35px;
