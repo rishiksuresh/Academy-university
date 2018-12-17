@@ -65,12 +65,20 @@
 
 
 function openNav() {
-	  document.getElementById("mySidenav").style.width = "210px";
-	}
+      document.getElementById("mySidenav").style.width = "210px";
+    }
 
-		function closeNav() {
-	   	 document.getElementById("mySidenav").style.width = "0";
-	}
+        function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+    }
+
+// function openNav() {
+// 	  document.getElementById("mySidenav1").style.width = "210px";
+// 	}
+
+// 		function closeNav() {
+// 	   	 document.getElementById("mySidenav1").style.width = "0";
+// 	}
 
 
 
