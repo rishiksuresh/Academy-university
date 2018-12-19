@@ -1239,7 +1239,7 @@ body p{
 
 header .main{
 	display: flex;
-	/*width: 100%;*/
+	width: 90%;
   height: 80px;
   align-items: center;
 }
