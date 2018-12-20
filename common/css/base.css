@@ -930,13 +930,14 @@ margin-top: 180px;
 	font-style: italic;
 }
 .event2_sections{
-	margin-top: 20px;
+	margin-top: 22px;
 }
 .event1_sections p, .event2_sections p{
 	padding: 0px;
 	margin: 0px;
 	color: #767787;
 	margin-right: 10px;
+	font-size: 18px;
 }
 .event1_section p {
 	padding: 0px;
