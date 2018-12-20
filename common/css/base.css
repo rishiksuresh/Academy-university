@@ -1,5 +1,6 @@
 
 body{
+	font-family: 'Open Sans', sans-serif;
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
@@ -44,7 +45,7 @@ body h1,h2{
 	margin: 0px;
 	padding: 0px;
 	margin-top: 20px;
-	/*font-family: Roboto;*/
+	/*font-family: 'Roboto', sans-serif;*/
     font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
@@ -128,7 +129,7 @@ ul.list_header_nav{
 ul.list_header_nav a{
 	text-decoration: none;
 	color: black;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
 li.home a,ul.list_header_nav a:hover{
@@ -159,7 +160,7 @@ header .container{
 ul.list_header_nav a{
 	text-decoration: none;
 	color: black;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
 li.home a,ul.list_header_nav a:hover{
@@ -894,7 +895,7 @@ margin-top: 180px;
 	padding: 0px;
 	margin: 0px;
 	margin-left: 15px;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 
@@ -947,7 +948,7 @@ margin-top: 180px;
 .event1_content , .event2_content{
 	margin-left: 20px;
 
-	/*width: 52%;*/
+	width: 65%;
 
 }
 div.event_cal{
@@ -1306,7 +1307,7 @@ header .main{
 ul.list_header_nav a{
 	text-decoration: none;
 	color: white;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
 li.home a,ul.list_header_nav a:hover{
@@ -1375,7 +1376,7 @@ li.home a,ul.list_header_nav a:hover{
 ul.list_header_nav1 a{
 	text-decoration: none;
 	color: white;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
 li.home a,ul.list_header_nav1 a:hover{
@@ -1802,7 +1803,7 @@ header .container{
 	padding: 0px;
 	margin: 0px;
 	margin-left: 15px;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 
@@ -2634,7 +2635,7 @@ margin-top: 0px;
 	padding: 0px;
 	margin: 0px;
 	margin-left: 15px;
-	font-family: Roboto;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 
