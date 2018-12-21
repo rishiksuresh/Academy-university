@@ -29,6 +29,11 @@ button.apply:hover{
 	overflow: hidden;
 	
 }
+.sp_container{
+	/*width: 86%;*/
+	width: 1349px;
+	margin: auto;
+}
 .heading{
 	margin-bottom: 10px;
 	padding: 0px;
@@ -504,7 +509,7 @@ margin-top: 180px;
 
 }
 .main_img{
-	width: 153%;
+	width: 114%;
 	margin: auto;
 }
 .main_img img{
@@ -806,10 +811,12 @@ margin-top: 180px;
 }
 .news_time p{
 	font-size: 14px;
+	margin-top: 3px;
+	margin-bottom: 15px;
 }
 .news_content p{
 	text-align: justify;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	margin-right: 8px;
 }
 .red_box h3{
@@ -822,6 +829,9 @@ margin-top: 180px;
 }
 .news_content span{
 	margin-right: 2px;
+}
+.np{
+	margin-left: 72px;
 }
 .icone{
 
@@ -988,6 +998,9 @@ div.event_cal{
 	padding: 0px;
 	height: auto;
 	background-image: url('../img/about_laptop.jpg');
+	/*background-repeat: no-repeat;*/
+	
+
 	/*display: flex;
 	justify-content: space-around;
 	padding-top: 80px;
@@ -1002,6 +1015,7 @@ div.event_cal{
 	display: flex;
 	padding-top: 80px;
 	padding-bottom: 80px;
+	/*background-image: url('../img/about_laptop.jpg');*/
 
 	/*padding-left: 100px;
 	padding-right: 100px;
@@ -1179,6 +1193,37 @@ button.admis{
 	margin-right: 10px;
 	cursor: pointer;
 }
+/*.social_icons h1:hover{
+	background: red;
+}*/
+
+.social_icons h1 {
+  /*padding: 50px;*/
+  /*background-color: green;*/
+  transition: transform .2s;
+  /*width: 200px;*/
+  /*height: 200px;*/
+  /*margin: 0 auto;*/
+}
+
+.social_icons h1:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(0.5); 
+}
+
+
+/*.social_icons span{
+	width: 40px;
+	height: 40px;
+	border: 2px solid white;
+	display: inline-block;
+	border-radius: 50%;
+	background: lightgrey;
+}
+.social_icons span:hover{
+	background: blue
+}*/
 #contact p{
 	font-size: 18px;
 	margin-top: 10px;
@@ -1200,6 +1245,37 @@ button.admis{
 	align-items: center;
 	/*margin: auto;*/
 }
+
+/*#footer{
+  background-color: #000;
+  color: #fff;
+  height: 40px;
+}
+
+#footer p{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.fa-facebook :hover {
+    color: #3B5998;
+  }
+.fa-google-plus-g :hover {
+    color: #3B5998;
+  }
+
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
+.fa-twitter-square:hover {
+    color: #55ACEE;
+  }
+
+  .icons{
+    cursor: pointer;
+  }*/
+
 .container small{
 	margin-top: 20px;
 }
@@ -1210,6 +1286,11 @@ button.admis{
 
 .container{
 	width: 93%;
+}
+.sp_container{
+	width: 93%;
+	/*width: 768px;*/
+	margin: auto;
 }
 .heading{
 	text-align: center;
@@ -2163,6 +2244,11 @@ body p{
 	font-size: 18px;
 }
 
+/*.sp_container{*/
+	/*width: 94%;*/
+	/*width: 540px;*/
+	/*margin: auto;*/
+/*}*/
 .container_logo{
 	/*flex: 2;*/
 	float: left;
