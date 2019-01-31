@@ -807,7 +807,7 @@ button.admis{
 	cursor: pointer;
 }
 .social_icons h1 {
-  	transition: transform .2s;
+  	transition: transform 1.2s;
 }
 .social_icons h1:hover {
 	-ms-transform: scale(1.5); /* IE 9 */
