@@ -30,8 +30,9 @@ button.apply {
 
 button.apply:hover {
   background-color: transparent;
-  color: #ba2025;
+  color: #000000;
   border-color: #ba2025;
+  font-weight: bold;
 }
 
 .container {
@@ -983,7 +984,7 @@ button.admis {
   /* IE 9 */
   -webkit-transform: scale(1.5);
   /* Safari 3-8 */
-  transform: scale(0.5);
+  transform: scale(0.8);
 }
 
 #contact p {
