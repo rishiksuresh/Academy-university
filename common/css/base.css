@@ -30,9 +30,9 @@ button.apply {
 
 button.apply:hover {
   background-color: transparent;
-  color: #000000;
+  color: white;
   border-color: #ba2025;
-  font-weight: bold;
+  
 }
 
 .container {
@@ -204,7 +204,7 @@ ul.list_header_nav a:hover {
   position: absolute;
   top: 230px;
   transform: translateX(0px);
-  left: 94px;
+  margin-left: 92px;
 }
 
 .buttons #prev,
