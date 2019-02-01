@@ -1057,6 +1057,7 @@ button.admis {
     top: 230px;
     text-align: center;
     left: 12%;
+    margin-left: 0px;
   }
   .nav_header_div {
     height: 591px;
