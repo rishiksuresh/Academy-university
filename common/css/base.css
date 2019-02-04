@@ -29,7 +29,8 @@ button.apply {
 }
 
 button.apply:hover {
-  background-color: transparent;
+  /*background-color: transparent;*/
+  background-color: #ffffff52;
   color: #ba2025;
   border-color: #ba2025;
   
