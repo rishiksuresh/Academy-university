@@ -30,7 +30,7 @@ button.apply {
 
 button.apply:hover {
   background-color: transparent;
-  color: white;
+  color: #ba2025;
   border-color: #ba2025;
   
 }
