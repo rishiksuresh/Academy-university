@@ -1023,6 +1023,12 @@ button.admis {
 /*@media(max-width: 540px){*/
 
 @media(max-width: 768px) {
+
+  .nav_header_div button.apply:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ba2025;
+}
   .container {
     width: 93%;
   }
@@ -1061,7 +1067,7 @@ button.admis {
     margin-left: 0px;
   }
   .nav_header_div {
-    height: 591px;
+    height: 474px;
     position: fixed;
     z-index: 1;
     top: 0;
