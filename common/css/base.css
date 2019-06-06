@@ -59,7 +59,7 @@ div .img {}
 }
 
 body h1,
-h2 {
+h2,h6 {
   margin: 0px;
   padding: 0px;
   margin-top: 20px;
@@ -77,6 +77,11 @@ body p {
 }
 
 body h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+body h6 {
   font-size: 30px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
@@ -286,12 +291,12 @@ div {
 }
 
 .slider_container h4,
-h1,
+h6,
 h3 {
   padding: 0px;
 }
 
-.slider_container h1 {
+.slider_container h6 {
   font-size: 44px;
   margin-top: -22px;
 }
@@ -524,7 +529,7 @@ h3 {
   height: auto;
 }
 
-#news h1 {
+#news h6 {
   color: white;
 }
 
@@ -572,7 +577,7 @@ h3 {
   box-sizing: border-box;
 }
 
-.red_box h1 {
+.red_box h6 {
   padding: 0px;
   font-size: 45px;
 }
@@ -818,7 +823,7 @@ div.event_cal {
   align-items: center;
 }
 
-.title_logo h1 {
+.title_logo h6 {
   font-size: 43px;
   font-weight: bold;
   color: #ba2025;
@@ -919,7 +924,7 @@ div .text_box {
   padding-right: 13px;
 }
 
-#admission h1 {
+#admission h6 {
   color: white;
 }
 
@@ -971,16 +976,16 @@ button.admis {
   display: flex;
 }
 
-.social_icons h1 {
+.social_icons h6 {
   margin-right: 10px;
   cursor: pointer;
 }
 
-.social_icons h1 {
+.social_icons h6 {
   transition: transform 1s;
 }
 
-.social_icons h1:hover {
+.social_icons h6:hover {
   -ms-transform: scale(1.5);
   /* IE 9 */
   -webkit-transform: scale(1.5);
@@ -1172,12 +1177,12 @@ button.admis {
     margin-top: 0px;
   }
   .main_content h4,
-  h1,
+  h6,
   h3 {
     padding: 0px;
     margin: 0 0 0 0px;
   }
-  .main_content h1 {
+  .main_content h6 {
     font-size: 38px;
     margin: 0px;
     padding: 0px;
@@ -1269,7 +1274,7 @@ button.admis {
   .img {
     display: none;
   }
-  .prog_section h1 {
+  .prog_section h6 {
     margin-left: 0px;
   }
   #programmes p {
@@ -1346,7 +1351,7 @@ button.admis {
     background-color: #141414;
     height: auto;
   }
-  #news h1 {
+  #news h6 {
     color: white;
   }
   #news h2 {
@@ -1391,7 +1396,7 @@ button.admis {
     padding-top: 10px;
     box-sizing: border-box;
   }
-  .red_box h1 {
+  .red_box h6 {
     padding: 0px;
     font-size: 45px;
   }
@@ -1558,7 +1563,7 @@ button.admis {
     flex-direction: column-reverse;
     align-items: center;
   }
-  .title_logo h1 {
+  .title_logo h6 {
     font-size: 40px;
     font-weight: bold;
     color: #ba2025;
@@ -1673,7 +1678,7 @@ button.admis {
     display: flex;
     margin-left: 5px;
   }
-  .social_icons h1 {
+  .social_icons h6 {
     margin-right: 10px;
     cursor: pointer;
   }
